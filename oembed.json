@@ -1,0 +1,12 @@
+{
+  "provider_url": "https://leovst.github.io",
+  "provider_name": "leovst.com",
+  "author_name": "leovst",
+  "title": "Color Matcher | leovst.com",
+  "html": "<iframe width='960' height='600' src=\"https://leovst.github.io/VectorAnimations/index.html\">",
+  "width": 960,
+  "height": 600,
+  "version": "1.0",
+  "author_url": "https://www.leovst.com",
+  "type": "rich"
+}

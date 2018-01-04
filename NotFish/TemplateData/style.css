@@ -46,7 +46,7 @@ a:hover {
 
 
 .content {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 100%;
 }

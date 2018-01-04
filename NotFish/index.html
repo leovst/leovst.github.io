@@ -1,4 +1,42 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Not Fish</title>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="TemplateData/style.css">
+		<link rel="shortcut icon" href="TemplateData/favicon.ico" />
+		<script src="TemplateData/UnityProgress.js"></script>
+    </head>
+    
+    <body>
+        <div class="object" id="header"> <img src="images/banner.png"> </div>
+        <div class="content">
+			<div id="dummy"> </div>
+			<div id="element">
+				<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+			</div>
+        </div>
+        <div class="object" id="footer"><a href="http://www.leovst.com">Leo Vansteenkiste</a> | Wouter Weynants | Wouter De Wolf | Thomas Van Riel</div>
+
+		<script type='text/javascript'>
+			var Module = {
+				TOTAL_MEMORY: 268435456,
+				errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+				compatibilitycheck: null,
+				dataUrl: "Release/NotFish.data",
+				codeUrl: "Release/NotFish.js",
+				memUrl: "Release/NotFish.mem",
+			};
+		</script>
+		<script src="Release/UnityLoader.js"></script>
+
+    </body>
+</html>
+
+
+<!--<!doctype html>
 <html lang="en-us">
 	<head>
 		<meta charset="utf-8">
@@ -29,4 +67,4 @@
 		</script>
 		<script src="Release/UnityLoader.js"></script>
 	</body>
-</html>
+</html>-->

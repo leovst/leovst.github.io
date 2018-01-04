@@ -24,7 +24,29 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 }
-body { }
+#header {
+	height: 150px;
+}
+#footer {
+	padding-top: 10px;
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	//text-transform: uppercase;
+	color: #999;
+}
+
 
 .content {
     display: inline-block;
